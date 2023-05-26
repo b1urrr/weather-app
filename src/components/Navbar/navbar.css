@@ -55,3 +55,12 @@
 .w__navbar_form button:hover {
     outline: 1px solid black;
 }
+
+@media screen and (max-width: 900px) {
+    .w__navbar {
+        flex-direction: column;
+    }
+    .w__navbar_logo {
+        margin-bottom: 1rem;
+    }
+}

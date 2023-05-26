@@ -2,11 +2,22 @@ body {
     background: url(../../assets/bg.jpg) no-repeat center center fixed;
     background-size: cover;
   }
-
+.w__home {
+  margin: 5rem;
+}
 
 .w__home_main {
     display: flex;
     justify-content: space-around;
-    padding: 3rem;
+    gap: 1rem;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .w__home {
+    margin: 1rem;
+  }
+  .w__home_main {
+    flex-direction: column;
+  }
 }
