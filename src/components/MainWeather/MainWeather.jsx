@@ -8,7 +8,8 @@ const MainWeather = ({ weatherData }) => {
         <h1>{weatherData?.name}</h1>
       </div>
       <div className="w__main_icon">
-        <img src={`src/assets/icons/${weatherData?.weather[0].icon}.png`} />
+      
+        <img src={`icons/${weatherData?.weather[0].icon}.png`} />
         <h2>
           {Math.round(weatherData?.main.temp)}°<span>C</span>
         </h2>
@@ -20,11 +21,11 @@ const MainWeather = ({ weatherData }) => {
       <div className="w__main_moredata">
         <div className="w__main_moredata-icons">
           <p>
-            <img src="src/assets/icons/wind.png" /> Вятър:{" "}
+            <img src="icons/wind.png" /> Вятър:{" "}
             {weatherData?.wind.speed}м/с
           </p>
           <p>
-            <img src="src/assets/icons/humidity.png" /> Влажност:{" "}
+            <img src="icons/humidity.png" /> Влажност:{" "}
             {weatherData?.main.humidity}%
           </p>
         </div>
