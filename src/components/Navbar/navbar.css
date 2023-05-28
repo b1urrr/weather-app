@@ -4,7 +4,6 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0.75rem 5rem;
-    background-color: var(--color-light);
 }
 
 .w__navbar_logo {
@@ -16,6 +15,7 @@
 
 .w__navbar_logo-icon {
     font-size: 3rem;
+    color: white
 }
 
 .w__navbar_form {
@@ -29,6 +29,7 @@
 .w__navbar_logo p {
     font-size: 1.5rem;
     font-weight: 500;
+    color: white
 }
 
 .w__navbar_form input {
@@ -37,6 +38,7 @@
     color: #6d6d6d;
     border: none;
     border-radius: 0;
+    opacity: 0.7;
     
 }
 .w__navbar_form input:focus {
@@ -50,6 +52,8 @@
     border: none;
     margin-left: 5px;
     background-color: white;
+    opacity: 0.7;
+    color: skyblue
 }
 
 .w__navbar_form button:hover {

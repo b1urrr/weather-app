@@ -11,7 +11,7 @@ const MainWeather = ({ weatherData }) => {
       
         <img src={`icons/${weatherData?.weather[0].icon}.png`} />
         <h2>
-          {Math.round(weatherData?.main.temp)}°<span>C</span>
+          {Math.round(weatherData?.main.temp)}°C
         </h2>
       </div>
       <div className="w__main_desc">
