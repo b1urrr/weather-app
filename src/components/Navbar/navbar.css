@@ -1,9 +1,11 @@
 .w__navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 5rem;
+    max-width: 800px;
+    padding: 0.75rem 0rem;
+    margin: 0 auto;
 }
 
 .w__navbar_logo {
@@ -39,6 +41,7 @@
     border: none;
     border-radius: 0;
     opacity: 0.7;
+    margin-right: 33px;
     
 }
 .w__navbar_form input:focus {
@@ -47,6 +50,7 @@
 .w__navbar_form button {
     position: absolute;
     top: 0px;
+    right: 0px;
     padding: 4px 4px 0px 4px;
     font-size: 1.4rem;
     border: none;

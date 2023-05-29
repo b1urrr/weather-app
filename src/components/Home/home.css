@@ -3,7 +3,7 @@ body {
     background-size: cover;
   }
 .w__home {
-  margin: 5rem;
+  margin: auto
 }
 
 .w__home_main {
@@ -11,13 +11,4 @@ body {
     justify-content: space-around;
     gap: 1rem;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 900px) {
-  .w__home {
-    margin: 1rem;
-  }
-  .w__home_main {
-    flex-direction: column;
-  }
 }

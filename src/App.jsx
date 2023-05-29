@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Footer, MainWeather, MoreCities, Navbar, Home, Forecast, AltDesign } from "./components";
+import { Footer, MoreCities, Navbar, Main, Home } from "./components";
 import axios from "axios";
 
 function App() {
@@ -45,8 +45,7 @@ function App() {
   return (
     <>
       <Navbar setCity={setCity} />
-      {/* <Home weatherData={weatherData} forecastData={forecastData} /> */}
-      <AltDesign weatherData={weatherData} forecastData={forecastData} />
+      <Home weatherData={weatherData} forecastData={forecastData} />
     </>
   );
 }
